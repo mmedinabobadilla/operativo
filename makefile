@@ -7,9 +7,9 @@ install-i3:
 	@mkdir -p ${HOME}/Imágenes/fondos
 	@cp i3/fondo.jpg ${HOME}/Imágenes/fondos
 	#instalando pamac
-	@git clone https://aur.archlinux.org/archlinux-appstream-data-pamac.git
-	@cd archlinux-appstream-data-pamac
-	@makepkg -si
+	@git clone https://aur.archlinux.org/pamac-all-git.git
+	@cd pamac-all-git
+	@makepkg -sic
 
 
 
