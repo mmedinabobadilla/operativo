@@ -11,6 +11,7 @@ i3)
 	#
 	cp -r i3/i3 $HOME/.config/
 	cp -r i3/rofi $HOME/.config/
+	cp i3/i3blocks.conf $HOME/.i3blocks.conf
 ;;
 esac
 
