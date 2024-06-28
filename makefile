@@ -8,8 +8,7 @@ install-i3:
 	@cp i3/fondo.jpg ${HOME}/Imágenes/fondos
 	#instalando pamac
 	@git clone https://aur.archlinux.org/pamac-all-git.git
-	@cd pamac-all-git
-	@makepkg -sic
+	@/bin/bash -c "cd pamac-all-git && makepkg -sic"
 
 
 
