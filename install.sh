@@ -6,8 +6,8 @@ i3)
 	mkdir -p ${HOME}/Imágenes/fondos
 	cp i3/fondo.jpg ${HOME}/Imágenes/fondos
 	#instalando pamac
-	git clone https://aur.archlinux.org/pamac-all-git.git
-	/bin/bash -c "cd pamac-all-git && makepkg -sic"
+	#git clone https://aur.archlinux.org/pamac-all-git.git
+	#/bin/bash -c "cd pamac-all-git && makepkg -sic"
 	#
 	cp -r i3/i3 $HOME/.config/
 	cp -r i3/rofi $HOME/.config/
