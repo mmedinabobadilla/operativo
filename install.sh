@@ -8,6 +8,9 @@ i3)
 	#instalando pamac
 	git clone https://aur.archlinux.org/pamac-all-git.git
 	/bin/bash -c "cd pamac-all-git && makepkg -sic"
+	#
+	cp -r i3/i3 $HOME/.config/
+	cp -r i3/rofi $HOME/.config/
 ;;
 esac
 
