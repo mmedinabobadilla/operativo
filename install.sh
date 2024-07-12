@@ -1,5 +1,5 @@
 case $1 in
-i3)
+archlinux-i3)
 	echo "instalando dependencias"
 	sudo pacman -Sy
 	sudo pacman -S --needed git curl base-devel rofi pavucontrol feh gnome-terminal nautilus blueman lxterminal network-manager-applet xfce4-screenshooter i3blocks volumeicon polkit-gnome awesome-terminal-fonts
@@ -12,6 +12,9 @@ i3)
 	cp -r i3/i3 $HOME/.config/
 	cp -r i3/rofi $HOME/.config/
 	cp i3/i3blocks.conf $HOME/.i3blocks.conf
+;;
+*)
+	echo "./install.sh archlinux-i3"
 ;;
 esac
 
